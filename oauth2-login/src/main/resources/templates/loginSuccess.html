@@ -7,11 +7,7 @@
 </head>
 <body>
 <div class="container-fluid">
-    <h3 class="p-3 mb-2 bg-light text-dark">Login with:</h3>
-    <p class="btn btn-primary" th:each="url : ${urls}">
-        <a class="text-light" th:text="${url.key}" th:href="${url.value}">Client</a>
-    </p>
+    <h3 class="p-3 mb-2 bg-light text-dark">Login succeed. Hello <span th:text="${name}">name</span></h3>
 </div>
-
 </body>
 </html>
