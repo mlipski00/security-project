@@ -1,0 +1,7 @@
+server:
+  port: 8081
+zuul:
+  sensitiveHeaders: Cookie,Set-Cookie
+    oauth:
+      path: /**
+      url: http://localhost:8083/
