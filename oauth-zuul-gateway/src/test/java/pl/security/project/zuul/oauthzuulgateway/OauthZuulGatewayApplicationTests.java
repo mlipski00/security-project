@@ -1,4 +1,4 @@
-package com.security.project.zuul.oauthzuulgateway;
+package pl.security.project.zuul.oauthzuulgateway;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

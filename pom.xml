@@ -17,7 +17,7 @@
     </parent>
 
    	<modules>
-        <module>oauth2-login</module>
+        <module>oauth-social-login</module>
         <module>oauth-zuul-gateway</module>
 	</modules>
 
