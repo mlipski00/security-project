@@ -1,4 +1,4 @@
-package pl.security.project.resource.one.oauthresourceone.recource;
+package pl.security.project.resource.one.oauthresourceone.resource;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
