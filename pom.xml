@@ -19,6 +19,7 @@
    	<modules>
         <module>oauth-social-login</module>
         <module>oauth-zuul-gateway</module>
+        <module>oauth-resource-one</module>
 	</modules>
 
     <dependencies>
