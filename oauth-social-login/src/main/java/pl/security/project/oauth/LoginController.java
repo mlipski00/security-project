@@ -1,5 +1,6 @@
 package pl.security.project.oauth;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.ResolvableType;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
@@ -29,7 +30,7 @@ public class LoginController {
   private OAuth2AuthorizedClientService authorizedClientService;
   private ClientRegistrationRepository clientRegistrationRepository;
 
-
+  @Autowired
   public LoginController(OAuth2AuthorizedClientService authorizedClientService, ClientRegistrationRepository clientRegistrationRepository) {
     this.oauth2AuthenticationUrls = new HashMap<>();
     this.authorizedClientService = authorizedClientService;
