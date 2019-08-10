@@ -1,4 +1,4 @@
-package pl.security.project.oauth.protectedresource;
+package pl.security.project.oauth.protectedresource.typicodepost;
 
 public class Post {
 
