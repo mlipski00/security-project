@@ -3,7 +3,6 @@ package pl.security.project.oauth;
 import feign.Logger;
 import feign.RequestInterceptor;
 import feign.codec.ErrorDecoder;
-import feign.form.ContentType;
 import feign.okhttp.OkHttpClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -21,13 +20,13 @@ public class ClientConfiguration {
     return new ErrorDecoder.Default();
   }
 
-//  @Bean
-//  public OkHttpClient client() {
-//    return new OkHttpClient();
-//  }
+  @Bean
+  public OkHttpClient client() {
+    return new OkHttpClient();
+  }
 
   @Bean
   public RequestInterceptor requestInterceptor() {
-    return requestTemplate -> requestTemplate.header("Accept", ContentType.of("application/json").toString());
+    return requestTemplate -> requestTemplate.header("Accept", "application/json");
   }
 }
