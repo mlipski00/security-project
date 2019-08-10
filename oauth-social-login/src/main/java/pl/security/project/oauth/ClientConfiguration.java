@@ -21,10 +21,10 @@ public class ClientConfiguration {
     return new ErrorDecoder.Default();
   }
 
-  @Bean
-  public OkHttpClient client() {
-    return new OkHttpClient();
-  }
+//  @Bean
+//  public OkHttpClient client() {
+//    return new OkHttpClient();
+//  }
 
   @Bean
   public RequestInterceptor requestInterceptor() {
