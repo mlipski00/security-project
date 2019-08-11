@@ -35,9 +35,15 @@ build/
 oauth-resource-one/.mvn/*
 oauth-resource-one/mvnw
 oauth-resource-one/mvnw.cmd
+
 oauth-resource-two/.mvn/*
 oauth-resource-two/mvnw
 oauth-resource-two/mvnw.cmd
+
 oauth-zuul-gateway/.mvn/*
 oauth-zuul-gateway-two/mvnw
 oauth-zuul-gateway/mvnw.cmd
+
+oauth-authorisation-jwt/.mvn/*
+oauth-authorisation-jwt/mvnw
+oauth-authorisation-jwt/mvnw.cmd

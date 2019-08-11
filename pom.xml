@@ -21,6 +21,7 @@
         <module>oauth-zuul-gateway</module>
         <module>oauth-resource-one</module>
         <module>oauth-resource-two</module>
+        <module>oauth-authorisation-jwt</module>
 	</modules>
 
     <dependencies>
