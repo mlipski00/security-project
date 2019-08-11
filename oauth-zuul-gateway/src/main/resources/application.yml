@@ -1,8 +1,12 @@
 server:
   port: 8080
 zuul:
-  sensitiveHeaders: Cookie,Set-Cookie
-  routes:
-    oauth:
-      path: /**
-      url: http://localhost:8081/
+   sensitiveHeaders: Cookie,Set-Cookie
+   routes:
+     social:
+       ignoredPatterns: /jwt/**
+       path: /**
+       url: http://localhost:8081/
+     jwt:
+       path: /jwt/**
+       url: http://localhost:8082/jwt/
